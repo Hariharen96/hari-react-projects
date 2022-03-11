@@ -1,0 +1,52 @@
+.add_contact {
+    width: 50rem;
+    margin: 1rem;
+}
+
+.add_contact h2 {
+    padding: 1rem;
+}
+
+.add_contact form {
+    padding: 0.5rem 1rem;
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.add_contact form .field {
+    margin: 1rem 0;
+}
+
+.add_contact form .field label {
+    display: block;
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+.add_contact form .field input {
+    width: 30rem;
+    padding: .5rem 1rem;
+    background: none;
+    outline: none;
+    border: 1px solid black;
+}
+
+.add_contact form .button {
+    padding: 1rem 0;
+}
+
+.add_contact form .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #1aacf0;
+    color: black;
+    border: none;
+    outline: none;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.add_contact form .btn:hover {
+    color: white;
+}
